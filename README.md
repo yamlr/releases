@@ -1,24 +1,15 @@
-# Yamlr Binary Releases & Distribution
+# Yamlr Legacy Release Archive (Deprecated)
 
-[![GitHub Releases](https://img.shields.io/github/v/release/yamlr/yamlr?style=flat-square&color=blue)](https://github.com/yamlr/yamlr/releases)
-[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-orange?style=flat-square)](https://github.com/yamlr/yamlr/blob/main/LICENSE)
+> **Notice**: This repository is deprecated and kept solely as an immutable archive.
 
-This repository serves as a release archive mirror for [**Yamlr**](https://github.com/yamlr/yamlr).
+### 🚀 Official Production Releases
+All official, cryptographically signed production binaries are distributed exclusively from the flagship repository:
 
-### 🚀 Official Downloads & Current Releases
+👉 **[https://github.com/yamlr/yamlr/releases](https://github.com/yamlr/yamlr/releases)**
 
-All verified, cryptographically signed production binaries are distributed on the official storefront:
-👉 **[Download Latest Yamlr Binaries on yamlr/yamlr](https://github.com/yamlr/yamlr/releases/latest)**
+### 📦 Official Direct CDN Distribution
+Automated and direct curl/powershell installations are served directly by our Cloudflare R2 edge CDN:
 
-### 📦 Quick Install
-
-- **macOS / Linux**:
-  ```bash
-  curl -fsSL https://get.yamlr.dev/install.sh | bash
-  ```
-- **Homebrew**:
-  ```bash
-  brew install yamlr/tap/yamlr
-  ```
-- **Windows**:
-  Download `yamlr-windows-x86_64.zip` from [Releases](https://github.com/yamlr/yamlr/releases/latest).
+- **CDN Base URL**: `https://get.yamlr.dev/v0.1.0/`
+- **Install Script**: `curl -fsSL https://get.yamlr.dev/install.sh | bash`
+- **Homebrew**: `brew install yamlr/tap/yamlr`
